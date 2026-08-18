@@ -1,39 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site oficial da Copa do Mundo 2026 - Pequenos Talentos">
     <title>Copa do Mundo 2026</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 
 <body>
-    <nav>
-        <div>
-            <div>
-                <span>Copa 2026</span>
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="Logo-destaque">Copa</span> 2026
             </div>
 
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#home">inicio</a></li>
                 <li><a href="#selecoes">Seleções</a></li>
                 <li><a href="#estadios">estadios</a></li>
                 <li><a href="#ingressos">ingressos</a></li>
                 <li><a href="#contatos">Contato</a></li>
             </ul>
+
         </div>
     </nav>
 
-    <section id="home">
+    <header id="home">
         <!-- div de textos -->
-        <div>
-            <div>
-                <p>Junho e Julho • Canadá, México e EUA</p>
+        <div class="header-content"> 
+            <div class="header-texto">
+
+                <p class="header-subtitulo">Junho e Julho • Canadá, México e EUA</p>
                 <!-- essa tag <br> quebra linhas  -->
-                <h1>A Maior Festa <br> do Futebol</h1>
-                <p>
+                <h1 class="header-titulo">A Maior Festa <br> do Futebol</h1>
+                <p class="header-descricao">
                     Três paises, 48 seleções e uma única paixão.
                     Garanta ja seu lugar no maior evento esportivo do planeta.
                 </p>
@@ -43,17 +45,20 @@
 
         </div>
         <!-- div de links -->
-        <div>
+        <div class="header-botoes">
             <a href="#ingressos" class="btn btn-primario">Comprar ingressos</a>
             <a href="#selecoes" class="btn btn-secundario"> Ver Seleções</a>
 
         </div>
 
         <!-- div de imagens  -->
-        <div>
-            <img src="img/copa-2026.png" alt="Logo da Copa - 2026">
+        <div class="header-imagem">
+            <img src="img/copa-2026.png" 
+                alt="Torcedores comemorando um gol na arquibancada de um estádio lotado"
+                class="header-foto"
+                >
         </div>
-    </section>
+    </header>
 
     <main>
         <section id="selecoes" class="secao-secao escura">
@@ -66,29 +71,37 @@
                 </div>
 
                 <!-- div de seleções -->
-                <div>
+                <div class="grid-selecoes">
                     <!-- div de seleção 1 -->
-                    <div>
+                    <div class="card-selecao">
                         <!-- div de imagem da seleção -->
-
-                        <img src="img/selecao-brasil.svg" alt="Banner Seleção Brasileira">
-
+                        <div class="card-imagem">
+                          <img src="img/selecao-brasil.svg" 
+                          alt="Jogadores da seleção brasileira abraçados com a camisa amarela"
+                          class="card-foto"
+                          >
+                        </div>
                     </div>
                     <!-- div corpo da seleção -->
-                    <div>
-                        <span>Grupo G</span>
+                    <div class="card-corpo">
+                        <span class="card-dia">Grupo G</span>
                         <h3>Brasil</h3>
                         <p>América do Sul - 5 títulos</p>
-                        <span>Cabeça de chave</span>
+                        <span class="tag-palco">Cabeça de chave</span>
                     </div>
 
 
                     <!-- div de seleção 2  -->
-                    <div>
+                    <div class="card-selecao">
                         <!-- div de imagem da seleção -->
-
-                        <img src="img/selecao-franca.svg" alt="Banner Seleção Francesa">
-
+                         <div class="card-imagem">
+                           <img
+                           src="img/selecao-franca.svg" 
+                           alt="Seleção francesa comemorando vitória em campo"
+                           class="card-foto"
+                         >
+                         <!-- Parei aqui da última vez -->
+                        </div>
                     </div>
                     <!-- div corpo da seleção -->
                     <div>
