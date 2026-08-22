@@ -159,13 +159,14 @@ h1, h2, h3, h4 {
      4. NAVBAR
      Menu superior fixado no topo da página.
   ---------------------------------------------------------------- */
+
   #navbar {
-    position: sticky;      /* Fica colado no topo ao rolar a página */
+    position: sticky;
     top: 0;
-    padding: 1rem 0;
+    padding: 1rem o;
     background-color: var(--cor-fundo-escuro);
-    border-bottom: 1px solid var(--cor-borda);
-    z-index: 100;          /* Garante que o menu fique sempre na frente dos outros elementos */
+    border-bottom: 1 px solid var(--cor-borda);
+    z-index: 100;
   }
   
   .nav-container {
